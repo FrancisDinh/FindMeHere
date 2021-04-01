@@ -1,2 +1,3 @@
 # Whatsupp
-Nice to know you :)
+
+Here I write about my daily learning journey :)
