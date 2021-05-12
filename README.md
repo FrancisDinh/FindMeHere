@@ -7,6 +7,11 @@ The idea sparked in my internship in 2016 at a paperfactory in Thailand, I was a
 My interest: time series forecasting, competitive programming and MLOps.
 
 Here are some projects that I am sharing:
+
+# [Stainless Steel Price forecasting](https://colab.research.google.com/drive/1LG41QjVrMQX64pQQzg-SMk5PWV_O8nAn?usp=sharing)
+It is a challenge that came across my face, and I decided to take it. The question is to forecast the price of stainless steel in the next 3-6 months using statistical, ML and DL models. Models are evaluated by MAPE and Directional Symmetry. During the process, it was figured out that Nicke, Baltic dry index and CLI of China also play important roles in steel price prediction. Trying with univariate models: ARIMA, Linear Regression and CNN-LSTM and multivariate VAR, Linear Regression and CNN-LSTM. Results was not good for multivariate CNN-LST (MAPE 33%) while univariate CNN-LSTM (MAPE 4%). Linear Regression is unexpectedly peforms quite well.
+
+
 # [Energy demand forecasting](https://github.com/FrancisDinh/Energy-forecasting-in-EMSs)
 Continue to realize a real-life scenario of a energy management system, where it has a demand forecasting module.
 Energy Management System (EMS) is emerging as a solution for the power grid management, which
