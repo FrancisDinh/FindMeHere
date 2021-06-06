@@ -8,7 +8,11 @@ My interest: time series forecasting, competitive programming and MLOps.
 
 Here are some projects that I am sharing:
 
-# [Stainless Steel Price forecasting](https://colab.research.google.com/drive/1LG41QjVrMQX64pQQzg-SMk5PWV_O8nAn?usp=sharing)
+# [Feature Ranking](https://github.com/FrancisDinh/Feature_ranking)
+
+
+# [Stainless Steel Price forecasting](https://colab.research.google.com/drive/1EqCoCDg4hczm6OBhOmU5R_USfxQAESwJ?usp=sharing)
+[Cont](https://colab.research.google.com/drive/1qLCoi6uWw_zuvLaMmqHtgDfiOh2c-VnY?usp=sharing)
 It is a challenge that came across my face, and I decided to take it. The question is to forecast the price of stainless steel in the next 3-6 months using statistical, ML and DL models. Models are evaluated by MAPE and Directional Symmetry. During the process, it was figured out that Nicke, Baltic dry index and CLI of China also play important roles in steel price prediction. Trying with univariate models: ARIMA, Linear Regression and CNN-LSTM and multivariate VAR, Linear Regression and CNN-LSTM. Results was not good for multivariate CNN-LST (MAPE 33%) while univariate CNN-LSTM (MAPE 4%). Linear Regression is unexpectedly peforms quite well.
 
 
