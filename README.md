@@ -11,12 +11,6 @@ Here are some projects that I am sharing:
 # [Feature Ranking](https://github.com/FrancisDinh/Feature_ranking)
 There are 400 samples from 10 sensors, and they are classified in two classes -1 and 1. This task required to rank the feature importance. This report represents three types of approaches: filter, tree-based and wrapper method; additionally, a soft SVM is used to rank the features based on their coefficients. The main problem of with the dataset is testing the ranked features. In order to understand the ranking models and to pick the best performed one, one final (neutral) model should try to predict the classes of sensors based only on the ranked sensors. Therefore, once there are the ranked sensors, it is very difficult to argue that the ranking is totally correct. In this experiment, we also try to test the ranked sensors by (1) use wrapper method to test the ranked feature of tree-based and soft SVM model and (2) using Linear Classification to predict based on the ranked features. In conclusion, sensor 8 is more important than others in classification task.
 
-# [Stainless Steel Price forecasting](https://colab.research.google.com/drive/1EqCoCDg4hczm6OBhOmU5R_USfxQAESwJ?usp=sharing)
-[Cont](https://colab.research.google.com/drive/1qLCoi6uWw_zuvLaMmqHtgDfiOh2c-VnY?usp=sharing)
-
-It is a challenge that came across my face, and I decided to take it. The question is to forecast the price of stainless steel in the next 3-6 months using statistical, ML and DL models. Models are evaluated by MAPE and Directional Symmetry. During the process, it was figured out that Nicke, Baltic dry index and CLI of China also play important roles in steel price prediction. Trying with univariate models: ARIMA, Linear Regression and CNN-LSTM and multivariate VAR, Linear Regression and CNN-LSTM. Results was not good for multivariate CNN-LST (MAPE 33%) while univariate CNN-LSTM (MAPE 4%). Linear Regression is unexpectedly peforms quite well.
-
-
 # [Energy demand forecasting](https://github.com/FrancisDinh/Energy-forecasting-in-EMSs)
 Continue to realize a real-life scenario of a energy management system, where it has a demand forecasting module.
 Energy Management System (EMS) is emerging as a solution for the power grid management, which
@@ -74,6 +68,11 @@ VGG Net, accuracy **99%**
 embedding, MLP, Conv1D, accuracy **82%**
 - Text generation: bidirectional LSTM, generate poem based on
 Shakespeare's Sonnets, smooth text and limited meaning
+
+# [Stainless Steel Price forecasting](https://colab.research.google.com/drive/1EqCoCDg4hczm6OBhOmU5R_USfxQAESwJ?usp=sharing)
+[Cont](https://colab.research.google.com/drive/1qLCoi6uWw_zuvLaMmqHtgDfiOh2c-VnY?usp=sharing)
+
+It is a challenge that came across my face, and I decided to take it. The question is to forecast the price of stainless steel in the next 3-6 months using statistical, ML and DL models. Models are evaluated by MAPE and Directional Symmetry. During the process, it was figured out that Nicke, Baltic dry index and CLI of China also play important roles in steel price prediction. Trying with univariate models: ARIMA, Linear Regression and CNN-LSTM and multivariate VAR, Linear Regression and CNN-LSTM. Results was not good for multivariate CNN-LST (MAPE 33%) while univariate CNN-LSTM (MAPE 4%). Linear Regression is unexpectedly peforms quite well.
 
 # [Database analysis](https://github.com/FrancisDinh/Data_Analysis)
 Database analysis: normalize 3NF standard, write backup job
